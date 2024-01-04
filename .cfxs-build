@@ -1,6 +1,6 @@
 local cfxs_framework = create_library("CFXS Framework v2")
 
-cfxs_framework:add_sources("./startup.cpp")
+cfxs_framework:add_sources("./src/startup.cpp")
 
 cfxs_framework:add_include_paths("local", "./CFXS_Framework/src")
 cfxs_framework:add_include_paths("inherit", "./CFXS_Framework/include")

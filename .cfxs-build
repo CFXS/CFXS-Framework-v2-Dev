@@ -2,9 +2,10 @@ cfxs_framework = create_library("CFXS Framework v2")
 
 cfxs_framework:add_sources("./CFXS_Framework/src/startup.cpp")
 
-cfxs_framework:add_include_paths("local", "./CFXS_Framework/src")
-cfxs_framework:add_include_paths("inherit", "./CFXS_Framework/include")
-cfxs_framework:add_definitions("inherit", {
+cfxs_framework:add_include_paths("private", "./CFXS_Framework/src")
+cfxs_framework:add_include_paths("public", "./CFXS_Framework/include")
+
+cfxs_framework:add_definitions("public", {
     "CFXS_FRAMEWORK=1"
 })
 

@@ -1,4 +1,4 @@
-local cfxs_framework = create_library("CFXS Framework v2")
+cfxs_framework = create_library("CFXS Framework v2")
 
 cfxs_framework:add_sources("./CFXS_Framework/src/startup.cpp")
 
